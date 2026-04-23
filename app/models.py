@@ -338,7 +338,7 @@ class Account(models.Model):
     ach_routing = models.CharField(max_length=100, blank=True, null=True)
     swift_code = models.CharField(max_length=100, blank=True, null=True)
     iban = models.CharField(max_length=100, blank=True, null=True)
-    bank_name = models.CharField(max_length=200, default="Civil Trust Equity Equity")
+    bank_name = models.CharField(max_length=200, default="Civil Trust Equity")
     branch_name = models.CharField(max_length=200, blank=True, null=True)
     branch_code = models.CharField(max_length=10, blank=True, null=True)
     

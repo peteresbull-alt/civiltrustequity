@@ -234,9 +234,12 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://localhost:8001',
+
     # Add production frontend URL here
-    'https://www.libertytrustequity.com',
-    'https://libertytrust.vercel.app',
+    'https://civiltrustequity.vercel.app',
+    'https://civiltrustequity.com',
+    'https://www.civiltrustequity.com',
+
 ]
 
 # ✅ CRITICAL: Allow credentials (cookies)
@@ -312,8 +315,9 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8001',
 
     # Add production URLs here
-    'https://www.libertytrustequity.com',
-    'https://libertytrust.vercel.app',
+    'https://civiltrustequity.vercel.app',
+    'https://civiltrustequity.com',
+    'https://www.civiltrustequity.com',
 
 ]
 
